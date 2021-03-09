@@ -4,7 +4,7 @@
  * https://tech.kakao.com/2019/10/02/kakao-blind-recruitment-2020-round1/  
  */
 
-package array;
+package src.programmers.kakao;
 
 public class Solution {
 	public static void main(String[] args) {

@@ -3,7 +3,7 @@
  * https://www.acmicpc.net/problem/14888
  */
 
-package repeat;
+package src.baekjoon.arr;
 
 import java.util.*;
 
