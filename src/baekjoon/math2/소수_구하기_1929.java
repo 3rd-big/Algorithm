@@ -25,7 +25,9 @@ public class 소수_구하기_1929 {
             int prime = (int) i;
             int end = rangeOfEnd / prime;
             for (int j = 2; j <= end; j++) {
-                rawData[prime * j - rangeOfBegin] = -1;
+                if (prime * j >= rangeOfBegin) {
+                    rawData[prime * j - rangeOfBegin] = -1;
+                }
             }
         }
 
