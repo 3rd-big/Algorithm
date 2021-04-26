@@ -33,6 +33,9 @@ public class 소수_구하기_1929 {
 
         for (int n : rawData) {
             if (n != -1) {
+                if (n == 1) {
+                    continue;
+                }
                 System.out.println(n);
             }
         }
